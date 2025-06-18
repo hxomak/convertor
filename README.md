@@ -1,17 +1,31 @@
-Инструкция по компиляции проекта.
-Для WINDOWS:
-1) Перед началом убедитесь, что у вас установлены следующие компоненты:
-    Git - (https://git-scm.com/),
-    CMake - (https://cmake.org/),
-    Visual Studio или MinGW.
-    Проверить установлены ли компоненты можно с помощью команды --version: cmake --version, gcc --version, cmake --version.
-3) Переместитесь в нужную вам папку, где будет находится этот проект и клонируйте его: git clone https://github.com/hxomak/convertor.git.
-4) Переместитесь в клонированную папку: cd convertor/.
-5) Создайте папку build и переместитесь в нее: mkdir build && cd build.
-6) Сгенерируйте файлы сборки с помощью CMake в зависимости от того, каким компилятором вы пользуетесь:
-    - если вы пользуетесь Visual Studio: cmake .. -G "Visual Studio <версия Visual Studio>", вместо <> вы должны вставить версию своего IDE;
-    - если у вас MinGW: cmake .. -G "MinGW Makefiles".
-7) Скомпилируйте проект:
-    - c Visual Studio: cmake --build . --config Release;
-    - с MinGW: mingw32-make.
-8) Запустите программу: Release/convertor.exe или convertor.exe.
+Instructions for compiling the project.
+
+For WINDOWS:
+1) Before you start, make sure that you have the following components installed:
+     - Git - (https://git-scm.com /),
+     - CMake - (https://cmake.org /),
+     - Visual Studio or MinGW.
+     - You can check whether the components are installed using the --version command: cmake --version, gcc --version, cmake --version.
+2) Navigate to the folder you need where this project will be located and clone it: git clone https://github.com/hxomak/convertor.git .
+3) Move to the cloned folder: cd converter/.
+4) Create a build folder and move to it: mkdir build && cd build.
+5) Generate the build files using CMake, depending on which compiler you use:
+    - if you use Visual Studio: cmake.. -G "Visual Studio <Visual Studio version>", you should insert your IDE version instead of <>;
+    - if you have MinGW: cmake.. -G "MinGW Makefiles".
+6) Compile the project:
+    - with Visual Studio: cmake --build . --config Release;
+    - with MinGW: mingw32-make.
+7) Run the program: Release/convertor.exe or convertor.exe.
+
+For Linux:
+1) Before you start, make sure that you have the following components installed:
+    - Git - (https://git-scm.com/),
+    - CMake - (https://cmake.org/),
+    - GCC or Clang.
+    - You can check whether the components are installed using the --version command: git --version, cmake --version, gcc --version.
+2) Navigate to the folder you need where this project will be located and clone it: git clone https://github.com/hxomak/convertor.git.
+3) Move to the cloned folder: cd convertor/.
+4) Create a build folder and move to it: mkdir build && cd build.
+5) Generate the build files using CMake: cmake ..
+6) Compile the project: make.
+7) Run the program: ./convertor.
