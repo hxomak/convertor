@@ -1,3 +1,0 @@
-C:/_Artem/programming/convertor/build/CMakeFiles/convertor.dir
-C:/_Artem/programming/convertor/build/CMakeFiles/edit_cache.dir
-C:/_Artem/programming/convertor/build/CMakeFiles/rebuild_cache.dir
