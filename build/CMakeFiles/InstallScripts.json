@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/_Artem/programming/convertor/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

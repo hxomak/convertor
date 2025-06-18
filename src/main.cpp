@@ -1,4 +1,4 @@
-#include "include/includes.h"
+#include "../include/includes.h"
 
 int main() {
     MenuManager::start();

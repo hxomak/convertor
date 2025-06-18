@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/_Artem/programming/convertor/build",
+  "command": "C:\\PROGRA~1\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\convertor.dir\\main.cpp.obj -c C:\\_Artem\\programming\\convertor\\main.cpp",
+  "file": "C:/_Artem/programming/convertor/main.cpp",
+  "output": "CMakeFiles/convertor.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/_Artem/programming/convertor/build",
+  "command": "C:\\PROGRA~1\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\convertor.dir\\src\\ratio_loader.cpp.obj -c C:\\_Artem\\programming\\convertor\\src\\ratio_loader.cpp",
+  "file": "C:/_Artem/programming/convertor/src/ratio_loader.cpp",
+  "output": "CMakeFiles/convertor.dir/src/ratio_loader.cpp.obj"
+},
+{
+  "directory": "C:/_Artem/programming/convertor/build",
+  "command": "C:\\PROGRA~1\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\convertor.dir\\src\\menu_manager.cpp.obj -c C:\\_Artem\\programming\\convertor\\src\\menu_manager.cpp",
+  "file": "C:/_Artem/programming/convertor/src/menu_manager.cpp",
+  "output": "CMakeFiles/convertor.dir/src/menu_manager.cpp.obj"
+},
+{
+  "directory": "C:/_Artem/programming/convertor/build",
+  "command": "C:\\PROGRA~1\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\convertor.dir\\src\\currency_converter.cpp.obj -c C:\\_Artem\\programming\\convertor\\src\\currency_converter.cpp",
+  "file": "C:/_Artem/programming/convertor/src/currency_converter.cpp",
+  "output": "CMakeFiles/convertor.dir/src/currency_converter.cpp.obj"
+},
+{
+  "directory": "C:/_Artem/programming/convertor/build",
+  "command": "C:\\PROGRA~1\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\convertor.dir\\src\\temperature_converter.cpp.obj -c C:\\_Artem\\programming\\convertor\\src\\temperature_converter.cpp",
+  "file": "C:/_Artem/programming/convertor/src/temperature_converter.cpp",
+  "output": "CMakeFiles/convertor.dir/src/temperature_converter.cpp.obj"
+},
+{
+  "directory": "C:/_Artem/programming/convertor/build",
+  "command": "C:\\PROGRA~1\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\convertor.dir\\src\\distance_converter.cpp.obj -c C:\\_Artem\\programming\\convertor\\src\\distance_converter.cpp",
+  "file": "C:/_Artem/programming/convertor/src/distance_converter.cpp",
+  "output": "CMakeFiles/convertor.dir/src/distance_converter.cpp.obj"
+}
+]

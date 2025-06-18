@@ -19,7 +19,9 @@ set(SOURCE src/ratio_loader.cpp
            src/distance_converter.cpp
 )
 
-add_executable(convertor main.cpp
+add_executable(convertor src/main.cpp
                          ${INCLUDE}
                          ${SOURCE}
 )
+
+#GCC 14.2.0 x86_64-w64-mingw32
